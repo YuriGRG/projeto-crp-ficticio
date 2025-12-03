@@ -1,0 +1,70 @@
+{
+  "colors": {
+    "default": "#2B2D31",
+    "primary": "#3b82f6",
+    "secondary": "#4f545c",
+    "success": "#22c55e",
+    "danger": "#ED4245",
+    "warning": "#fbbd23",
+    "azoxo": "#5865F2",
+    "green": "#57F287",
+    "yellow": "#FEE75C",
+    "fuchsia": "#EB459E",
+    "magic": "#c026d3",
+    "developer": "#3e70dd",
+    "balance": "#45ddc0",
+    "brilliance": "#f07d5f",
+    "nitro": "#ff6bfa",
+    "bravery": "#9c84ef"
+  },
+  "keys": {
+    "apiERLCKey": "YfJbCSBiWlmWtgunDdRb-KasKYcJxvNKvgZxGKNzUOWAxVcmYhMntgcFjnsKB"
+  },
+  "groups": {
+    "crpRobloxGroupId": "740938578"
+  },
+  "guilds": {
+    "capitalrpGuildId": "1428084271804977187"
+  },
+  "channels": {
+    "logsChannelId": "1428102701006323832",
+    "suggestionsChannelId": "1428606807386886176",
+    "listPlayersChannelId": "1428151373828198431",
+    "sessionvotationChannelId": "1428151322523340900",
+    "sessionChannelId": "1428151294098673674",
+    "allowlistChannelId": "1428100231228162192",
+    "whitelistChannelId": "1428100205286260808",
+    "serviceChannelId": "1428607111880769646",
+    "orgsInfoChannelId": "1428438023460229313",
+    "doespChannelId": "1428455064053485649"
+  },
+  "members": {},
+  "roles": {
+    "memberDivisorRoleId": "1428093138618159235",
+    "memberRoleId": "1428093184767955035",
+    "tierIRoleId": "1428166450459185194",
+    "tierIIRoleId": "1428166512182693898",
+    "tierIIIRoleId": "1428166526791585913",
+    "tierIVRoleId": "1428166545905025145",
+    "whiteandallowDivisorRoleId": "1428092274167775262",
+    "whiteListRoleId": "1428092286226534571",
+    "allowListRoleId": "1428092392703131678",
+    "swhiteListRoleId": "1428092499481858049",
+    "sallowListRoleId": "1428092488945504296",
+    "verifiedRoleId": "1428187811185692672"
+  },
+  "suggestions": {
+    "0": {
+      "messageId": "a",
+      "userId": "b"
+    }
+  },
+  "messages": {
+    "apiERLC": {
+      "Sucess": "Sucesso",
+      "The private server is currently offline.": "Este servidor privado se encontra desligado.",
+      "Invalid Server-Key": "A Chave API é inválida"
+    },
+    "playerListMessageId": "1440769948086439956"
+  }
+}

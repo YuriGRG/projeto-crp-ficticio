@@ -1,0 +1,66 @@
+{
+  "name": "capitalroleplay-bot",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "check": "tsc --noEmit && echo ✔ Ok",
+    "build": "tsc",
+    "dev": "tsx --env-file .env ./src/index.ts",
+    "dev:dev": "tsx --env-file .env.dev ./src/index.ts",
+    "watch": "tsx --watch --env-file .env ./src/index.ts",
+    "watch:dev": "tsx --watch --env-file .env.dev ./src/index.ts",
+    "start": "node --env-file .env .",
+    "start:dev": "node --env-file .env.dev ."
+  },
+  "dependencies": {
+    "@magicyan/discord": "1.6.0",
+    "@reliverse/reglob": "1.0.0",
+    "axios": "^1.12.2",
+    "chalk": "5.6.2",
+    "discord.js": "14.23.2",
+    "express.js": "^1.0.0",
+    "firebase": "^12.6.0",
+    "firebase-admin": "^13.4.0",
+    "noblox.js": "^6.2.0",
+    "node-fetch": "^2.7.0",
+    "rou3": "0.7.3",
+    "typesaurus": "10.7.0",
+    "zod": "4.1.11"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.9.36",
+    "@types/node": "22.16.4",
+    "tsx": "4.19.3",
+    "typescript": "5.9.3"
+  },
+  "imports": {
+    "#env": [
+      "./build/env.js"
+    ],
+    "#base": [
+      "./build/discord/base/index.js"
+    ],
+    "#functions": [
+      "./build/functions/index.js"
+    ],
+    "#database": [
+      "./build/database/index.js"
+    ],
+    "#server": [
+      "./build/server/index.js"
+    ],
+    "#menus": [
+      "./build/menus/index.js"
+    ],
+    "#tools": [
+      "./build/tools/index.js"
+    ],
+    "#lib/*": [
+      "./build/lib/*"
+    ],
+    "#shared/*": [
+      "./build/shared/*"
+    ]
+  },
+  "baseVersion": "1.4.8"
+}
