@@ -11,7 +11,7 @@
 /.env.development
 
 # Config files
-/firebase.json
+*firebase.json
 
 # Extensions
 *.zip
